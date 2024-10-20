@@ -1,0 +1,67 @@
+/* Dark theme styling */
+body {
+  background-color: #1c1c1c;
+  color: #cfcfcf;
+  font-family: 'Fira Mono', monospace;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  color: #e04f5f;
+}
+
+.about, .posts, .links {
+  margin-bottom: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #ffffff;
+  margin-bottom: 0.5em;
+}
+
+
+.share h2,
+.links h2 {
+  color: #f9d9dd;
+}
+
+.share li,
+.links li {
+  color: #f9d9dd;
+}
+
+a {
+  color: #e04f5f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.highlight {
+  color: #e04f5f;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 15px;
+}
